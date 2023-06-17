@@ -1,0 +1,9 @@
+[package]
+name = "look-and-say-sequence"
+version = "0.1.0"
+edition = "2021"
+authors = ["Antoine Sébert", "<antoine.sb@orange.fr>"]
+description = "Calculates the nth term of the Look-and-say sequence"
+
+[dependencies]
+clap = { version = "4.3.4", features = ["derive"] }
