@@ -97,10 +97,7 @@ fn compute_nth(n: u32, print_intermediate: bool) -> Vec<u8> {
 fn main() {
 	let args = Args::parse();
 	let result = compute_nth(args.n, args.verbose);
-
-	if args.verbose {
-		println!("{}", from_utf8(&result).unwrap());
-	}
+	println!("{}", from_utf8(&result).unwrap());
 }
 
 #[cfg(test)]
