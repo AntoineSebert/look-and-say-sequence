@@ -5,7 +5,8 @@ Calculates the nth term of the [Look-and-say sequence](https://en.wikipedia.org/
 ## Build and run
 
 ```sh
-$ ./look-and-say-sequence -n 5
+$ cargo build
+$ /target/debug/look-and-say-sequence -n 5
 111221
 ```
 
