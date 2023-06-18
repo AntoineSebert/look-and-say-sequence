@@ -6,7 +6,7 @@ Calculates the nth term of the [Look-and-say sequence](https://en.wikipedia.org/
 
 ```sh
 $ cargo build
-$ /target/debug/look-and-say-sequence -n 5
+$ target/debug/look-and-say-sequence -n 5
 111221
 ```
 
